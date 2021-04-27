@@ -89,7 +89,6 @@
     background-color: #ECC4F7;
 }
 #nav_menu li a {
-    display: block;
     width: 100%;
 }
 #mobile_menu {
@@ -97,7 +96,6 @@
 
 }
 #menu {
-	display: block;
 	color: #885b95;
     font-family: fantasy;
     font-size-adjust: auto;
