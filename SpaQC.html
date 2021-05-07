@@ -20,7 +20,7 @@
 ***** VIEWPORT FOR RESPONSIVE *****
 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Body Barn | Q&A | Christopher, IL</title>
+    <title>The Body Barn | QA | Christopher, IL</title>
 <!--
 ***** STYLESHEETS *****
 -->
@@ -85,6 +85,105 @@
         </div>
     </div>
    <br>
+    <figure>
+            <figcaption>What is your dream??</figcaption>
+    </figure>
+      <div class="container">
+  <form action="/action.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Full Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="fullname" placeholder="Your full name.." minlength="15" maxlength="25" required>
+    </div>
+  </div><br>
+  <div class="row">
+    <div class="col-25">
+      <label for="address">Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="address" name="address" placeholder="Your address.." minlength="15" maxlength="50" required>
+    </div>
+  </div><br>
+  <div class="row">
+    <div class="col-25">
+      <label for="city">City</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="city" name="city" placeholder="Your city.." minlength="2" maxlength="25" required>
+    </div><br>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="state">State</label>
+    </div>
+    <div class="col-75">
+      <select id="state" name="state" required>
+
+        <option value="Illinois">Illinois</option>
+        <option value="Kentucky">Kentucky</option> 
+       <option value="Missouri">Missouri</option>
+                 
+      </select>
+    </div>
+  </div><br>
+    <div class="row">
+    <div class="col-25">
+      <label for="zipcode">Zipcode</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="zipcode" name="zipcode" placeholder="Your zipcode.." minlength="5" maxlength="10" pattern="99999" pattern="99999-9999" required>
+    </div>
+  </div>  <br>
+  <div class="row">
+    <div class="col-25">
+      <label for="phone">Phone</label>
+    </div>
+    <div class="col-75">
+      <input type="tel" id="phone" name="phone" placeholder="Your phone number.." minlength="10" maxlength="12" pattern="999-999-9999" required>
+    </div>
+  </div>  <br>
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="email" id="email" name="email" placeholder="Your email address.." minlength="10" maxlength="50" type="email">
+    </div>
+  </div><br>
+    <div class="row">
+    <div class="col-25">
+      <label for="date">Date</label>
+    </div>
+    <div class="col-75">
+      <input type="date" id="date" name="date" placeholder="Today's date.." required>
+    </div>
+  </div>
+   
+ <br>
+ <div class="row">
+    <div class="col-25">
+      <label for="Password">Password</label>
+    </div>
+    <div class="col-75">
+      <input type="Password" id="Password" name="Password" placeholder="Please create password.." required>
+    </div>
+  </div>
+  <div class="row"><br>
+    <div class="col-25">
+      <label for="subject">Questions or comments:</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Tell us what you want us to know.." style="height:200px" minlength="20" maxlength="500" required></textarea>
+    </div>
+  </div><br>
+  <div class="row">
+       <a href="Response.html">
+      <input type="submit"/>
+     </a>
+     <input type="Reset" value ="Reset">
+  </div>
 <!--
 ***** FOOTER *****
 -->
